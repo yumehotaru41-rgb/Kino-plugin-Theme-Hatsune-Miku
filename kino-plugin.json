@@ -1,7 +1,7 @@
 {
   "id": "theme-hatsune-miku",
   "name": "Hatsune Miku",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "apiVersion": 18,
   "entry": "plugin.js",
   "description": "Tema de Hatsune Miku para toda la interfaz de Kino. Colores turquesa y azules inspirados en la vocaloid. Logo MIKU, fondos degradados y amplia personalización.",
@@ -140,33 +140,37 @@
       "logo": {
         "wordmark": {
           "size": [
-            96,
-            30
+            184,
+            48
           ],
           "paths": [
             {
-              "d": "M0 8 L0 22 L5 22 L5 13 L9 20 L13 13 L13 22 L18 22 L18 8 L13 8 L9 15 L5 8 Z",
+              "d": "M12 14 C5 20 3.5 31 6.5 44 L11.5 44 C9 32 11 23 16.5 18 Z M32 14 C39 20 40.5 31 37.5 44 L32.5 44 C35 32 33 23 27.5 18 Z M10 28 C8.5 17 14 10 22 10 C30 10 35.5 17 34 28 L32 23 L29.5 28 L27 22 L24.5 27 L22 22 L19.5 27 L17 22 L14.5 28 L12 23 Z M10 28 C8.5 33 9 38 11 42 L15 42 C12.5 37 12.5 32 14 28 Z M34 28 C35.5 33 35 38 33 42 L29 42 C31.5 37 31.5 32 30 28 Z",
               "fill": "accent"
             },
             {
-              "d": "M24 8 H29 V22 H24 Z",
-              "fill": "textPrimary"
+              "d": "M22 15 A11 11 0 1 0 22 37 A11 11 0 1 0 22 15 Z",
+              "fill": "#FFE0C7"
             },
             {
-              "d": "M35 8 H40 V13 L45 8 H51 L44 15 L51 22 H45 L40 17 V22 H35 Z",
+              "d": "M17.5 26 A1.75 2.5 0 1 0 17.5 31 A1.75 2.5 0 1 0 17.5 26 Z M26.5 26 A1.75 2.5 0 1 0 26.5 31 A1.75 2.5 0 1 0 26.5 26 Z",
+              "fill": "#041018"
+            },
+            {
+              "d": "M20 33 Q22 35 24 33 Z M11.5 15 L7.5 12.5 L8.5 17.5 Z M11.5 15 L15.5 12 L16.5 16 Z M32.5 15 L36.5 12.5 L35.5 17.5 Z M32.5 15 L28.5 12 L27.5 16 Z",
+              "fill": "#FF6B9D"
+            },
+            {
+              "d": "M50 10 L50 35 L59 35 L59 16 L66 29 L73 16 L73 35 L82 35 L82 10 L73 10 L66 23 L59 10 Z",
               "fill": "accent"
             },
             {
-              "d": "M58 8 H63 V20 H58 Z",
+              "d": "M93 10 H102 V35 H93 Z M154 10 H163 V32 H154 Z M172 10 H181 V32 H172 Z M154 28 H181 V35 H154 Z",
               "fill": "textPrimary"
             },
             {
-              "d": "M68 8 H73 V20 H68 Z",
-              "fill": "textPrimary"
-            },
-            {
-              "d": "M58 18 H73 V22 H58 Z",
-              "fill": "textPrimary"
+              "d": "M113 10 H122 V19 L131 10 H142 L129 24 L142 35 H131 L122 26 V35 H113 Z",
+              "fill": "accent"
             }
           ]
         },
