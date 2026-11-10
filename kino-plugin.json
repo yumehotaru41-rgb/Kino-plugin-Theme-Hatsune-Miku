@@ -1,7 +1,7 @@
 {
   "id": "theme-hatsune-miku",
   "name": "Hatsune Miku",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "apiVersion": 18,
   "entry": "plugin.js",
   "description": "Tema de Hatsune Miku para toda la interfaz de Kino. Colores turquesa y azules inspirados en la vocaloid. Logo MIKU, fondos degradados y amplia personalización.",
@@ -218,10 +218,14 @@
           "swatches": [
             "#39C5BB",
             "#00E5FF",
+            "#4AE0D0",
             "#7FDBDA",
-            "#00A0E9",
+            "#1A9E97",
+            "#178582",
             "#FF6B9D",
-            "#FFB74D"
+            "#FF9EC6",
+            "#FFB3D1",
+            "#A78BFA"
           ]
         },
         "colors.surface": {
@@ -230,7 +234,12 @@
             "#0F2035",
             "#1A3350",
             "#0A1628",
-            "#183048"
+            "#183048",
+            "#0E2E30",
+            "#123538",
+            "#14454A",
+            "#1C2B4A",
+            "#231B3A"
           ]
         },
         "colors.surfaceHigh": {
@@ -238,7 +247,11 @@
             "#1A3350",
             "#183048",
             "#1C3855",
-            "#243F5C"
+            "#243F5C",
+            "#14454A",
+            "#1B4E52",
+            "#2A3E60",
+            "#30254E"
           ]
         },
         "colors.border": {
@@ -246,7 +259,10 @@
             "#39C5BB",
             "#00E5FF",
             "#2A4A5A",
-            "#FF6B9D"
+            "#FF6B9D",
+            "#178582",
+            "#A78BFA",
+            "#FFB3D1"
           ]
         },
         "shape.cardRadius": {
@@ -293,7 +309,16 @@
           "min": 0,
           "max": 0.8
         },
-        "background": true
+        "background": true,
+        "colors.favorite": {
+          "swatches": [
+            "#FF6B9D",
+            "#FF9EC6",
+            "#FFB3D1",
+            "#A78BFA",
+            "#39C5BB"
+          ]
+        }
       }
     }
   ]
