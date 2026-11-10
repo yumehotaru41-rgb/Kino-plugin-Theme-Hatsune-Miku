@@ -1,16 +1,18 @@
 {
   "id": "theme-hatsune-miku",
   "name": "Hatsune Miku",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "apiVersion": 18,
   "entry": "plugin.js",
   "description": "Tema de Hatsune Miku para toda la interfaz de Kino. Colores turquesa y azules inspirados en la vocaloid. Logo MIKU, fondos degradados y amplia personalización.",
   "author": "Hotaru Yume",
   "creator": "hotaruyume",
-  "homepage": "https://github.com/luisenriquefernandez482-create/Kino-Plugin-Theme-Hatsune-Mik",
+  "homepage": "https://github.com/yumehotaru41-rgb/Kino-plugin-Theme-Hatsune-Miku",
   "icon": "icon.png",
   "hosts": [],
-  "categories": ["themes"],
+  "categories": [
+    "themes"
+  ],
   "appThemes": [
     {
       "id": "hatsune-miku",
@@ -41,7 +43,12 @@
       },
       "background": {
         "type": "gradient",
-        "colors": ["#0A1628", "#0F2A45", "#1A3A5C", "#0A1628"],
+        "colors": [
+          "#0A1628",
+          "#0F2A45",
+          "#1A3A5C",
+          "#0A1628"
+        ],
         "angle": 165
       },
       "shape": {
@@ -58,9 +65,9 @@
         "menuBorder": 1
       },
       "typography": {
-        "scale": 1.0,
+        "scale": 1,
         "titleScale": 1.05,
-        "bodyScale": 1.0
+        "bodyScale": 1
       },
       "elevation": {
         "cardShadow": 0.35,
@@ -76,13 +83,19 @@
         "buttonScale": 1.05,
         "playButtonScale": 1.1,
         "seekBarScale": 1.15,
-        "labelScale": 1.0,
+        "labelScale": 1,
         "buttonShape": "rounded"
       },
       "phone": {
         "background": {
           "type": "gradient",
-          "colors": ["#061018", "#0A1E30", "#123A55", "#0A1628", "#061018"],
+          "colors": [
+            "#061018",
+            "#0A1E30",
+            "#123A55",
+            "#0A1628",
+            "#061018"
+          ],
           "angle": 200
         },
         "colors": {
@@ -99,7 +112,13 @@
       "tv": {
         "background": {
           "type": "gradient",
-          "colors": ["#050D18", "#0A1C30", "#153A58", "#0E2A45", "#050D18"],
+          "colors": [
+            "#050D18",
+            "#0A1C30",
+            "#153A58",
+            "#0E2A45",
+            "#050D18"
+          ],
           "angle": 145
         },
         "colors": {
@@ -115,49 +134,75 @@
           "buttonRadius": 20
         },
         "typography": {
-          "scale": 1.0
+          "scale": 1
         }
       },
       "logo": {
         "wordmark": {
-          "size": [176, 42],
+          "size": [
+            96,
+            30
+          ],
           "paths": [
             {
-              "d": "M6 7 L6 35 L15 35 L15 7 Z",
+              "d": "M0 8 L0 22 L5 22 L5 13 L9 20 L13 13 L13 22 L18 22 L18 8 L13 8 L9 15 L5 8 Z",
               "fill": "accent"
             },
             {
-              "d": "M15 7 L24 28 L33 7 L42 7 L29 35 L19 35 L6 7 Z",
-              "fill": "accent"
-            },
-            {
-              "d": "M33 7 L33 35 L42 35 L42 7 Z",
-              "fill": "accent"
-            },
-            {
-              "d": "M54 7 L54 35 L63 35 L63 7 Z",
+              "d": "M24 8 H29 V22 H24 Z",
               "fill": "textPrimary"
             },
             {
-              "d": "M76 7 L76 35 L85 35 L85 23 L98 35 L109 35 L91 20 L109 7 L98 7 L85 20 L85 7 Z",
+              "d": "M35 8 H40 V13 L45 8 H51 L44 15 L51 22 H45 L40 17 V22 H35 Z",
               "fill": "accent"
             },
             {
-              "d": "M124 7 L124 26 C124 34 131 39 142 39 C153 39 160 34 160 26 L160 7 L151 7 L151 26 C151 29 147 32 142 32 C137 32 133 29 133 26 L133 7 Z",
+              "d": "M58 8 H63 V20 H58 Z",
+              "fill": "textPrimary"
+            },
+            {
+              "d": "M68 8 H73 V20 H68 Z",
+              "fill": "textPrimary"
+            },
+            {
+              "d": "M58 18 H73 V22 H58 Z",
               "fill": "textPrimary"
             }
           ]
         },
         "mark": {
-          "size": [32, 32],
+          "size": [
+            80,
+            96
+          ],
           "paths": [
             {
-              "d": "M16 2 L28 10 L28 22 L16 30 L4 22 L4 10 Z",
+              "d": "M20 28 C6 40 3 62 9 88 L19 88 C14 64 18 46 29 36 Z M60 28 C74 40 77 62 71 88 L61 88 C66 64 62 46 51 36 Z",
               "fill": "accent"
             },
             {
-              "d": "M16 8 L22 12 L22 20 L16 24 L10 20 L10 12 Z",
-              "fill": "onAccent"
+              "d": "M40 30 A22 22 0 1 0 40 74 A22 22 0 1 0 40 30 Z",
+              "fill": "#FFE0C7"
+            },
+            {
+              "d": "M16 56 C13 66 14 76 18 84 L26 84 C21 74 21 64 24 56 Z M64 56 C67 66 66 76 62 84 L54 84 C59 74 59 64 56 56 Z",
+              "fill": "accent"
+            },
+            {
+              "d": "M16 56 C13 34 24 20 40 20 C56 20 67 34 64 56 L60 46 L55 56 L50 44 L45 54 L40 44 L35 54 L30 44 L25 56 L20 46 Z",
+              "fill": "accent"
+            },
+            {
+              "d": "M31 52 A3.5 5 0 1 0 31 62 A3.5 5 0 1 0 31 52 Z M49 52 A3.5 5 0 1 0 49 62 A3.5 5 0 1 0 49 52 Z",
+              "fill": "#041018"
+            },
+            {
+              "d": "M36 66 Q40 70 44 66 Z",
+              "fill": "#FF6B9D"
+            },
+            {
+              "d": "M19 30 L11 25 L13 35 Z M19 30 L27 24 L29 32 Z M61 30 L69 25 L67 35 Z M61 30 L53 24 L51 32 Z",
+              "fill": "#FF6B9D"
             }
           ]
         }
@@ -166,16 +211,39 @@
       "experience": "full",
       "adjustable": {
         "colors.accent": {
-          "swatches": ["#39C5BB", "#00E5FF", "#7FDBDA", "#00A0E9", "#FF6B9D", "#FFB74D"]
+          "swatches": [
+            "#39C5BB",
+            "#00E5FF",
+            "#7FDBDA",
+            "#00A0E9",
+            "#FF6B9D",
+            "#FFB74D"
+          ]
         },
         "colors.surface": {
-          "swatches": ["#12253A", "#0F2035", "#1A3350", "#0A1628", "#183048"]
+          "swatches": [
+            "#12253A",
+            "#0F2035",
+            "#1A3350",
+            "#0A1628",
+            "#183048"
+          ]
         },
         "colors.surfaceHigh": {
-          "swatches": ["#1A3350", "#183048", "#1C3855", "#243F5C"]
+          "swatches": [
+            "#1A3350",
+            "#183048",
+            "#1C3855",
+            "#243F5C"
+          ]
         },
         "colors.border": {
-          "swatches": ["#39C5BB", "#00E5FF", "#2A4A5A", "#FF6B9D"]
+          "swatches": [
+            "#39C5BB",
+            "#00E5FF",
+            "#2A4A5A",
+            "#FF6B9D"
+          ]
         },
         "shape.cardRadius": {
           "min": 4,
@@ -214,7 +282,7 @@
           "max": 1.6
         },
         "motion.focusZoom": {
-          "min": 1.0,
+          "min": 1,
           "max": 1.12
         },
         "elevation.cardShadow": {

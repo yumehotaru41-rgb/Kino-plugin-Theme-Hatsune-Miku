@@ -2,14 +2,14 @@
 
 Tema de app completo (apiVersion 18) inspirado en Hatsune Miku.
 
-**Versión actual: 1.0.1**
+**Versión actual: 1.0.5**
 
 ## Instalación
 
 En Kino: **Ajustes ▸ Plugins** → escribe:
 
 ```
-luisenriquefernandez482-create/Kino-Plugin-Theme-Hatsune-Mik
+yumehotaru41-rgb/Kino-plugin-Theme-Hatsune-Miku
 ```
 
 Luego ve a **Ajustes ▸ Apariencia** y elige **Hatsune Miku**.
@@ -28,7 +28,7 @@ Para personalizar: **Ajustes ▸ Apariencia ▸ Personalizar** (aparece solo cua
 
 ## Logo
 
-El logo del menú y del riel del TV se reemplaza por el texto **MIKU** en turquesa + blanco.
+El logo del menú y del riel del TV se reemplaza por el texto **MIKU** en turquesa + blanco, acompañado de la marca de Miku (cabeza chibi con coletas, vectorizada).
 
 ## Limitación importante de Kino
 
