@@ -2,7 +2,7 @@
 
 Tema de app completo (apiVersion 18) inspirado en Hatsune Miku.
 
-**Versión actual: 1.0.5**
+**Versión actual: 1.1.0**
 
 ## Instalación
 
@@ -12,14 +12,19 @@ En Kino: **Ajustes ▸ Plugins** → escribe:
 yumehotaru41-rgb/Kino-plugin-Theme-Hatsune-Miku
 ```
 
-Luego ve a **Ajustes ▸ Apariencia** y elige **Hatsune Miku**.
+Luego ve a **Ajustes ▸ Apariencia** y elige **Hatsune Miku** o **Hatsune Miku Noir**.
 
 Para personalizar: **Ajustes ▸ Apariencia ▸ Personalizar** (aparece solo cuando el tema está activo).
 
+## Variantes
+
+- **Hatsune Miku**: degradado azul-turquesa clásico.
+- **Hatsune Miku Noir**: fondo negro degradado con la misma paleta turquesa/rosa.
+
 ## Qué se personaliza
 
-- Acento (varios turquesas + rosa)
-- Surface / SurfaceHigh / Border
+- Acento (paleta orgánica de Miku: turquesas, cianes, teales profundos, rosas y lila)
+- Surface / SurfaceHigh / Bordes / Favoritos
 - Radios de tarjetas, botones, diálogos y chips
 - Escala de texto y de títulos
 - Tamaño de botones y barra del reproductor
@@ -28,7 +33,7 @@ Para personalizar: **Ajustes ▸ Apariencia ▸ Personalizar** (aparece solo cua
 
 ## Logo
 
-El logo del menú y del riel del TV se reemplaza por el texto **MIKU** en turquesa + blanco, acompañado de la marca de Miku (cabeza chibi con coletas, vectorizada).
+El logo del menú y de la cabecera se reemplaza por la chibi de Miku (cabeza redonda, flequillo en puntas, coletas, audífonos) junto al texto **MIKU** en turquesa + blanco. En el riel del TV se usa la marca chibi en grande.
 
 ## Limitación importante de Kino
 
