@@ -1,7 +1,7 @@
 {
   "id": "theme-hatsune-miku",
   "name": "Hatsune Miku",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "apiVersion": 18,
   "entry": "plugin.js",
   "description": "Tema de Hatsune Miku para toda la interfaz de Kino. Colores turquesa y azules inspirados en la vocaloid. Logo MIKU, fondos degradados y amplia personalización.",
@@ -145,7 +145,7 @@
           ],
           "paths": [
             {
-              "d": "M12 14 C5 20 3.5 31 6.5 44 L11.5 44 C9 32 11 23 16.5 18 Z M32 14 C39 20 40.5 31 37.5 44 L32.5 44 C35 32 33 23 27.5 18 Z M10 28 C8.5 17 14 10 22 10 C30 10 35.5 17 34 28 L32 23 L29.5 28 L27 22 L24.5 27 L22 22 L19.5 27 L17 22 L14.5 28 L12 23 Z M10 28 C8.5 33 9 38 11 42 L15 42 C12.5 37 12.5 32 14 28 Z M34 28 C35.5 33 35 38 33 42 L29 42 C31.5 37 31.5 32 30 28 Z",
+              "d": "M12 14 C5 20 3.5 31 6.5 44 L11.5 44 C9 32 11 23 16.5 18 Z M32 14 C39 20 40.5 31 37.5 44 L32.5 44 C35 32 33 23 27.5 18 Z M10 28 C8.5 17 14 10 22 10 C30 10 35.5 17 34 28 L32 23 L29.5 28 L27 22 L22 33 L17 22 L14.5 28 L12 23 Z M10 28 C8.5 33 9 38 11 42 L15 42 C12.5 37 12.5 32 14 28 Z M34 28 C35.5 33 35 38 33 42 L29 42 C31.5 37 31.5 32 30 28 Z",
               "fill": "accent"
             },
             {
@@ -193,7 +193,7 @@
               "fill": "accent"
             },
             {
-              "d": "M16 56 C13 34 24 20 40 20 C56 20 67 34 64 56 L60 46 L55 56 L50 44 L45 54 L40 44 L35 54 L30 44 L25 56 L20 46 Z",
+              "d": "M16 56 C13 34 24 20 40 20 C56 20 67 34 64 56 L60 46 L55 56 L50 44 L45 54 L40 66 L35 54 L30 44 L25 56 L20 46 Z",
               "fill": "accent"
             },
             {
