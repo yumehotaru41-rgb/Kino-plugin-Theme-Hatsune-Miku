@@ -2,7 +2,7 @@
 
 Tema de app completo (apiVersion 26) inspirado en Hatsune Miku.
 
-**Versión actual: 1.4.4** — necesita **Kino 0.9.87 o posterior**.
+**Versión actual: 1.5.5** — necesita **Kino 0.9.87 o posterior**.
 
 ## Instalación
 
@@ -38,8 +38,8 @@ El logo vectorial personalizado se muestra en el menú, la cabecera y el riel de
 - Botón principal con degradado turquesa y borde claro.
 - Botones secundarios e iconos con superficies azul oscuro.
 - Elemento de navegación inactivo con fondo y borde discretos; el elemento activo conserva su píldora turquesa y resplandor.
-- Tarjetas normales con contorno tenue y halo turquesa suave.
-- Tarjetas enfocadas con contorno claro y halo más intenso.
+- Tarjetas normales sin contorno turquesa global; el borde de selección aparece únicamente en la tarjeta enfocada.
+- Tarjetas enfocadas con contorno claro y halo más intenso; el marco se desplaza al cambiar el foco.
 - Anillo de foco visible, especialmente útil al navegar con control remoto.
 - Héroe enmarcado y riel flotante en TV.
 
