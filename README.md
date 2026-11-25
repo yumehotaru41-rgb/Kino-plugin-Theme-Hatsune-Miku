@@ -2,7 +2,7 @@
 
 Tema de app completo (apiVersion 26) inspirado en Hatsune Miku.
 
-**Versión actual: 1.2.0** — necesita **Kino 0.9.87 o posterior** (usa imagen de fondo).
+**Versión actual: 1.2.1** — necesita **Kino 0.9.87 o posterior**.
 
 ## Instalación
 
@@ -18,7 +18,15 @@ Para personalizar: **Ajustes ▸ Apariencia ▸ Personalizar** (aparece solo cua
 
 ## Fondo: imagen o color
 
-El tema trae una **imagen de fondo** (assets/background.png). Puedes alternar entre la imagen y el color sólido del tema en **Ajustes ▸ Experiencia visual** (interruptor "Imagen de fondo"). La imagen siempre viaja con los colores de respaldo por si no carga.
+El tema trae una **imagen de fondo** (assets/background.png). Alterna entre la imagen y el color sólido del tema en **Ajustes ▸ Experiencia visual** (interruptor "Imagen de fondo"). El color de respaldo siempre está por si la imagen no carga.
+
+## Efectos
+
+- Brillo (**gloss**) en botones y tarjetas
+- Resplandor turquesa en el ítem activo del menú, el foco del TV y las tarjetas
+- Botón con degradado turquesa y borde claro
+- Héroe enmarcado y riel flotante en TV
+- Puedes apagar cada efecto en **Ajustes ▸ Experiencia visual**
 
 ## Qué se personaliza
 
