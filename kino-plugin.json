@@ -1,7 +1,7 @@
 {
   "id": "theme-hatsune-miku",
   "name": "Hatsune Miku",
-  "version": "1.4.0",
+  "version": "1.4.1",
   "apiVersion": 26,
   "entry": "plugin.js",
   "description": "Tema de Hatsune Miku para toda la interfaz de Kino. Colores turquesa y azules inspirados en la vocaloid. Logo MIKU, fondos degradados y amplia personalización.",
@@ -66,7 +66,8 @@
         "titleScale": 1.05,
         "bodyScale": 1,
         "fontFamily": {
-          "regular": "font"
+          "regular": "font",
+          "bold": "font-bold"
         }
       },
       "elevation": {
@@ -307,7 +308,13 @@
         },
         {
           "id": "font",
-          "path": "assets/Trebuchet MS Bold.ttf",
+          "path": "assets/font-regular.ttf",
+          "sha256": "9cf5777ebf93e9193d25ec0697976bb2dcad1637b73e9e36cfbf18d26ef262a9",
+          "bytes": 134108
+        },
+        {
+          "id": "font-bold",
+          "path": "assets/font-bold.ttf",
           "sha256": "73150ef5306b3651eac743ad570bc956c2ca41f5564e8700c8ae83928827441e",
           "bytes": 123096
         }
@@ -481,7 +488,8 @@
         "titleScale": 1.05,
         "bodyScale": 1,
         "fontFamily": {
-          "regular": "font"
+          "regular": "font",
+          "bold": "font-bold"
         }
       },
       "elevation": {
@@ -851,7 +859,13 @@
       "assets": [
         {
           "id": "font",
-          "path": "assets/Trebuchet MS Bold.ttf",
+          "path": "assets/font-regular.ttf",
+          "sha256": "9cf5777ebf93e9193d25ec0697976bb2dcad1637b73e9e36cfbf18d26ef262a9",
+          "bytes": 134108
+        },
+        {
+          "id": "font-bold",
+          "path": "assets/font-bold.ttf",
           "sha256": "73150ef5306b3651eac743ad570bc956c2ca41f5564e8700c8ae83928827441e",
           "bytes": 123096
         }

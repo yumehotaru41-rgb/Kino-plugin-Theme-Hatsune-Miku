@@ -2,7 +2,7 @@
 
 Tema de app completo (apiVersion 26) inspirado en Hatsune Miku.
 
-**Versión actual: 1.2.1** — necesita **Kino 0.9.87 o posterior**.
+**Versión actual: 1.4.1** — necesita **Kino 0.9.87 o posterior**.
 
 ## Instalación
 
@@ -12,21 +12,27 @@ En Kino: **Ajustes ▸ Plugins** → escribe:
 yumehotaru41-rgb/Kino-plugin-Theme-Hatsune-Miku
 ```
 
-Luego ve a **Ajustes ▸ Apariencia** y elige **Hatsune Miku**.
+Luego ve a **Ajustes ▸ Apariencia** y elige **Hatsune Miku** o **Hatsune Miku (color)**.
 
 Para personalizar: **Ajustes ▸ Apariencia ▸ Personalizar** (aparece solo cuando el tema está activo).
 
+## Tipografía
+
+Toda la app usa la fuente del tema (Trebuchet MS): regular y negrita, incluidas como assets con su hash verificado.
+
 ## Fondo: imagen o color
 
-El tema trae una **imagen de fondo** (assets/background.png). Alterna entre la imagen y el color sólido del tema en **Ajustes ▸ Experiencia visual** (interruptor "Imagen de fondo"). El color de respaldo siempre está por si la imagen no carga.
+- **Hatsune Miku**: imagen de fondo (assets/background.png), con dim 0.5 y color de respaldo.
+- **Hatsune Miku (color)**: degradado azul-turquesa original.
+- También puedes apagar la imagen en **Ajustes ▸ Experiencia visual ▸ Personalizar uno por uno**.
 
 ## Efectos
 
-- Brillo (**gloss**) en botones y tarjetas
-- Resplandor turquesa en el ítem activo del menú, el foco del TV y las tarjetas
+- Brillo (gloss) en botones y tarjetas
+- Resplandor turquesa en ítem activo, foco del TV y tarjetas
 - Botón con degradado turquesa y borde claro
 - Héroe enmarcado y riel flotante en TV
-- Puedes apagar cada efecto en **Ajustes ▸ Experiencia visual**
+- Cada efecto se apaga en **Ajustes ▸ Experiencia visual**
 
 ## Qué se personaliza
 
