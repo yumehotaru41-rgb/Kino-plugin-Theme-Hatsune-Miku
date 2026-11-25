@@ -1,8 +1,8 @@
 {
   "id": "theme-hatsune-miku",
   "name": "Hatsune Miku",
-  "version": "1.1.3",
-  "apiVersion": 18,
+  "version": "1.2.0",
+  "apiVersion": 26,
   "entry": "plugin.js",
   "description": "Tema de Hatsune Miku para toda la interfaz de Kino. Colores turquesa y azules inspirados en la vocaloid. Logo MIKU, fondos degradados y amplia personalización.",
   "author": "Hotaru Yume",
@@ -42,14 +42,11 @@
         "scrim": "#000000"
       },
       "background": {
-        "type": "gradient",
-        "colors": [
-          "#0A1628",
-          "#0F2A45",
-          "#1A3A5C",
-          "#0A1628"
-        ],
-        "angle": 165
+        "image": {
+          "asset": "background",
+          "fit": "cover",
+          "dim": 0.5
+        }
       },
       "shape": {
         "cardRadius": 16,
@@ -87,17 +84,6 @@
         "buttonShape": "rounded"
       },
       "phone": {
-        "background": {
-          "type": "gradient",
-          "colors": [
-            "#061018",
-            "#0A1E30",
-            "#123A55",
-            "#0A1628",
-            "#061018"
-          ],
-          "angle": 200
-        },
         "colors": {
           "surface": "#0F2035",
           "surfaceHigh": "#183048",
@@ -110,17 +96,6 @@
         }
       },
       "tv": {
-        "background": {
-          "type": "gradient",
-          "colors": [
-            "#050D18",
-            "#0A1C30",
-            "#153A58",
-            "#0E2A45",
-            "#050D18"
-          ],
-          "angle": 145
-        },
         "colors": {
           "surface": "#12253A",
           "surfaceHigh": "#1C3855",
@@ -320,6 +295,14 @@
           ]
         }
       }
+    }
+  ],
+  "assets": [
+    {
+      "id": "background",
+      "path": "assets/background.png",
+      "sha256": "a69ab752f4e9a9c09a00bdec8f7afc4b92e26e4c37b54467b76d29d426157c61",
+      "bytes": 567203
     }
   ]
 }
