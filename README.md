@@ -2,7 +2,7 @@
 
 Tema de app completo (apiVersion 26) inspirado en Hatsune Miku.
 
-**Versión actual: 1.5.5** — necesita **Kino 0.9.87 o posterior**.
+**Versión actual: 1.5.6** — necesita **Kino 0.9.87 o posterior**.
 
 ## Instalación
 
@@ -36,9 +36,9 @@ El logo vectorial personalizado se muestra en el menú, la cabecera y el riel de
 
 - Brillo general sutil (`style.gloss: 0.36`).
 - Botón principal con degradado turquesa y borde claro.
-- Botones secundarios e iconos con superficies azul oscuro.
+- Botones secundarios con superficies azul oscuro; los botones de icono usan el mismo degradado turquesa y borde que el botón principal.
 - Elemento de navegación inactivo con fondo y borde discretos; el elemento activo conserva su píldora turquesa y resplandor.
-- Tarjetas normales sin contorno turquesa global; el borde de selección aparece únicamente en la tarjeta enfocada.
+- Tarjetas normales sin borde global; el contorno turquesa se reserva para el elemento enfocado.
 - Tarjetas enfocadas con contorno claro y halo más intenso; el marco se desplaza al cambiar el foco.
 - Anillo de foco visible, especialmente útil al navegar con control remoto.
 - Héroe enmarcado y riel flotante en TV.
@@ -75,3 +75,10 @@ Algunas pantallas **nunca** toman el tema del plugin por diseño:
 
 - **author**: Hotaru Yume
 - **creator**: hotaruyume
+
+
+## Ajuste de selección en TV
+
+- `shape.cardBorder: 0` desactiva el borde predeterminado de todas las tarjetas.
+- `surfaces.cardFocus` y `surfaces.focus` conservan el contorno y halo únicamente para el elemento enfocado.
+- `surfaces.iconButton` comparte el relleno degradado y el borde de `surfaces.button`, para que el botón de cuadrícula junto a Buscar tenga el mismo aspecto.
