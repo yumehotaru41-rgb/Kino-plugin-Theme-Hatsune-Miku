@@ -2,7 +2,7 @@
 
 Tema de app completo (apiVersion 26) inspirado en Hatsune Miku.
 
-**Versión actual: 1.4.2** — necesita **Kino 0.9.87 o posterior**.
+**Versión actual: 1.4.4** — necesita **Kino 0.9.87 o posterior**.
 
 ## Instalación
 
@@ -16,45 +16,60 @@ Luego ve a **Ajustes ▸ Apariencia** y elige **Hatsune Miku** o **Hatsune Miku 
 
 Para personalizar: **Ajustes ▸ Apariencia ▸ Personalizar** (aparece solo cuando el tema está activo).
 
-## Tipografía
+## Los dos temas
 
-El tema utiliza la tipografía nativa de Kino; no descarga ni declara fuentes externas.
+- **Hatsune Miku**: fondo de imagen (`assets/background.png`), oscurecido con `dim: 0.5` y color de respaldo.
+- **Hatsune Miku (color)**: degradado azul-turquesa, sin depender de una imagen externa.
+- Ambos conservan la paleta turquesa, los detalles rosas y las variantes de móvil y TV.
 
-## Fondo: imagen o color
+## Logo Miku
 
-- **Hatsune Miku**: imagen de fondo (assets/background.png), con dim 0.5 y color de respaldo.
-- **Hatsune Miku (color)**: degradado azul-turquesa original.
-- También puedes apagar la imagen en **Ajustes ▸ Experiencia visual ▸ Personalizar uno por uno**.
+El logo vectorial personalizado se muestra en el menú, la cabecera y el riel de TV:
 
-## Efectos
+- Flequillo turquesa con una V central más definida.
+- Coletas laterales y lazos rosas con formas más visibles.
+- Ojos azules con destellos blancos adicionales.
+- Rostro ovalado y texto **MIKU** en turquesa y blanco.
+- El diseño se adapta a los dos temas y no necesita archivos de imagen ni descargas.
 
-- Brillo (gloss) en botones y tarjetas
-- Resplandor turquesa en ítem activo, foco del TV y tarjetas
-- Botón con degradado turquesa y borde claro
-- Héroe enmarcado y riel flotante en TV
-- Cada efecto se apaga en **Ajustes ▸ Experiencia visual**
+## Efectos visuales
 
-## Qué se personaliza
+- Brillo general sutil (`style.gloss: 0.36`).
+- Botón principal con degradado turquesa y borde claro.
+- Botones secundarios e iconos con superficies azul oscuro.
+- Elemento de navegación inactivo con fondo y borde discretos; el elemento activo conserva su píldora turquesa y resplandor.
+- Tarjetas normales con contorno tenue y halo turquesa suave.
+- Tarjetas enfocadas con contorno claro y halo más intenso.
+- Anillo de foco visible, especialmente útil al navegar con control remoto.
+- Héroe enmarcado y riel flotante en TV.
 
-- Acento (paleta orgánica de Miku: turquesas, cianes, teales profundos, rosas y lila)
-- Surface / SurfaceHigh / Bordes / Favoritos
-- Radios de tarjetas, botones, diálogos y chips
-- Escala de texto y de títulos
-- Tamaño de botones y barra del reproductor
-- Zoom de foco y sombra de tarjetas
+Los efectos son complementarios: el tema conserva sus colores, contraste y estructura aunque se apaguen los brillos, degradados, contornos o capas desde **Ajustes ▸ Experiencia visual ▸ Personalizar uno por uno**. Los interruptores del dispositivo siempre tienen prioridad.
 
-## Logo
+## Personalización disponible
 
-El logo del menú y de la cabecera se reemplaza por la chibi de Miku (cabeza redonda, flequillo en V, coletas con lazos, ojos con brillo y cuerpo negro) junto al texto **MIKU** en turquesa + blanco.
+En **Ajustes ▸ Apariencia ▸ Personalizar** puedes ajustar:
 
-## Limitación importante de Kino
+- Acento (turquesas, cianes, teales profundos, rosas y lila).
+- Superficies, superficies elevadas, bordes y favoritos.
+- Radios de tarjetas, botones, diálogos y chips.
+- Escala general del texto y de los títulos.
+- Tamaño de botones y barra del reproductor.
+- Zoom de foco y sombra de tarjetas.
+- Fondo, cuando el ajuste correspondiente está disponible.
 
-Algunas pantallas **nunca** toman el tema del plugin (diseño deliberado de seguridad):
+## Tipografía y compatibilidad
 
-- Diálogo de **control parental / código +18**
-- Hojas de consentimiento al instalar/actualizar plugins
-- Pantallas de bloqueo y de decisión crítica
-- La propia pantalla de Apariencia y su vista previa
+El tema utiliza la tipografía nativa de Kino; no descarga ni declara fuentes externas. El manifiesto usa `apiVersion: 26` y requiere Kino 0.9.87 o posterior.
+
+## Limitaciones de Kino
+
+Algunas pantallas **nunca** toman el tema del plugin por diseño:
+
+- Pantalla inicial y puerta de entrada de Kino.
+- Diálogo de control parental / código +18.
+- Hojas de consentimiento al instalar o actualizar plugins.
+- Pantallas de bloqueo y de decisión crítica.
+- Ajustes ▸ Apariencia y su vista previa.
 
 ## Autor
 
