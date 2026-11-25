@@ -1,7 +1,7 @@
 {
   "id": "theme-hatsune-miku",
   "name": "Hatsune Miku",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "apiVersion": 26,
   "entry": "plugin.js",
   "description": "Tema de Hatsune Miku para toda la interfaz de Kino. Colores turquesa y azules inspirados en la vocaloid. Logo MIKU, fondos degradados y amplia personalización.",
@@ -294,15 +294,128 @@
             "#39C5BB"
           ]
         }
+      },
+      "assets": [
+        {
+          "id": "background",
+          "path": "assets/background.png",
+          "sha256": "a69ab752f4e9a9c09a00bdec8f7afc4b92e26e4c37b54467b76d29d426157c61",
+          "bytes": 567203
+        }
+      ],
+      "style": {
+        "gloss": 0.3
+      },
+      "layout": {
+        "hero": "framed",
+        "rail": "floating"
+      },
+      "surfaces": {
+        "button": {
+          "fill": {
+            "type": "gradient",
+            "colors": [
+              "#39C5BB",
+              "#1E8F88"
+            ],
+            "angle": 180
+          },
+          "stroke": {
+            "width": 1,
+            "color": "#7FE3DC"
+          }
+        },
+        "buttonGhost": {
+          "fill": {
+            "type": "solid",
+            "color": "#12253A"
+          },
+          "stroke": {
+            "width": 1,
+            "color": "#2A4A5A"
+          }
+        },
+        "iconButton": {
+          "fill": {
+            "type": "solid",
+            "color": "#12253A"
+          },
+          "stroke": {
+            "width": 1,
+            "color": "#2A4A5A"
+          }
+        },
+        "navActive": {
+          "fill": {
+            "type": "solid",
+            "color": "#123B3E"
+          },
+          "stroke": {
+            "width": 1.5,
+            "color": "#39C5BB"
+          },
+          "glow": {
+            "color": "#39C5BB",
+            "radius": 10,
+            "alpha": 0.5
+          }
+        },
+        "rail": {
+          "fill": {
+            "type": "solid",
+            "color": "#0D1C2E"
+          },
+          "stroke": {
+            "width": 1,
+            "color": "#2A4A5A"
+          }
+        },
+        "cardFocus": {
+          "stroke": {
+            "width": 2,
+            "color": "#E8F7F6"
+          },
+          "glow": {
+            "color": "#39C5BB",
+            "radius": 14,
+            "alpha": 0.45
+          }
+        },
+        "focus": {
+          "stroke": {
+            "width": 2,
+            "color": "#E8F7F6"
+          },
+          "glow": {
+            "color": "#39C5BB",
+            "radius": 10,
+            "alpha": 0.45
+          }
+        },
+        "hero": {
+          "stroke": {
+            "width": 1,
+            "color": "#2A4A5A"
+          }
+        },
+        "progress": {
+          "fill": {
+            "type": "gradient",
+            "colors": [
+              "#7FE3DC",
+              "#39C5BB"
+            ],
+            "angle": 0
+          }
+        },
+        "card": {
+          "glow": {
+            "color": "#39C5BB",
+            "radius": 10,
+            "alpha": 0.22
+          }
+        }
       }
-    }
-  ],
-  "assets": [
-    {
-      "id": "background",
-      "path": "assets/background.png",
-      "sha256": "a69ab752f4e9a9c09a00bdec8f7afc4b92e26e4c37b54467b76d29d426157c61",
-      "bytes": 567203
     }
   ]
 }
