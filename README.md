@@ -20,7 +20,7 @@ Para personalizar: **Ajustes ▸ Apariencia ▸ Personalizar** (aparece solo cua
 
 - **Hatsune Miku**: fondo de imagen (`assets/background.png`), oscurecido con `dim: 0.5` y color de respaldo.
 - **Hatsune Miku (color)**: degradado azul-turquesa, sin depender de una imagen externa.
-- Ambos conservan la paleta turquesa, los detalles rosas y las variantes de móvil y TV.
+- Ambos conservan la paleta turquesa, los detalles rosas y el logo vectorial de Miku.
 
 ## Logo Miku
 
