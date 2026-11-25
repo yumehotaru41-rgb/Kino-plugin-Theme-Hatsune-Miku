@@ -2,7 +2,7 @@
 
 Tema de app completo (apiVersion 26) inspirado en Hatsune Miku.
 
-**Versión actual: 1.5.6** — necesita **Kino 0.9.87 o posterior**.
+**Versión actual: 1.5.7** — necesita **Kino 0.9.87 o posterior**.
 
 ## Instalación
 
