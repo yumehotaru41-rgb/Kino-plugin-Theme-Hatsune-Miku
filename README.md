@@ -2,7 +2,7 @@
 
 Tema de app completo (apiVersion 26) inspirado en Hatsune Miku.
 
-**Versión actual: 1.4.1** — necesita **Kino 0.9.87 o posterior**.
+**Versión actual: 1.4.2** — necesita **Kino 0.9.87 o posterior**.
 
 ## Instalación
 
@@ -18,7 +18,7 @@ Para personalizar: **Ajustes ▸ Apariencia ▸ Personalizar** (aparece solo cua
 
 ## Tipografía
 
-Toda la app usa la fuente del tema (Trebuchet MS): regular y negrita, incluidas como assets con su hash verificado.
+El tema utiliza la tipografía nativa de Kino; no descarga ni declara fuentes externas.
 
 ## Fondo: imagen o color
 
